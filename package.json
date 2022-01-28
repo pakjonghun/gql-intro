@@ -1,0 +1,31 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakjonghun/gql-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakjonghun/gql-intro/issues"
+  },
+  "homepage": "https://github.com/pakjonghun/gql-intro#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^0.1.0-alpha.3",
+    "apollo-server": "^3.6.2",
+    "cross-fetch": "^3.1.5",
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
